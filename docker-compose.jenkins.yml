@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  spring-demo:
+    image: spring-demo:20191024_093242
+    deploy:
+      restart_policy:
+        condition: on-failure
+    expose:
+      - "8888"
+    ports:
+      - 8888:8888
