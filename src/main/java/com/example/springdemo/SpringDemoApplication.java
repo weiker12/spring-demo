@@ -13,8 +13,8 @@ public class SpringDemoApplication {
 
     @GetMapping("/home")
     public String home() {
-        log.info("Hello Jenkins World!");
-        return "Hello Jenkins World!";
+        log.info("Hello Jenkins and Docker!");
+        return "Hello Jenkins and Docker!";
     }
 
     public static void main(String[] args) {
