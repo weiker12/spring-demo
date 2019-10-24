@@ -4,7 +4,7 @@ pipeline {
     stage('Git') {
        steps {
          echo "Git"
-         git 'git@github.com:weiker12/spring-demo.git'
+         git 'https://github.com/weiker12/spring-demo.git'
        }
     }
     stage('Build') {
